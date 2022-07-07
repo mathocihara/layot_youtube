@@ -31,31 +31,6 @@ body, html{
     margin: 20px;
     flex-direction: column;
 }
-#linhaMenuCss{
-    display: flex;
-    margin-top: 10px;
-    flex-direction: row;
-    align-items: center;
-
-}
-#iconesMenu{
-    display: flex;
-    margin-right: 5px;
-    margin-left: 10px;
-    width: 26px;
-    height: 26px;
-    color: #777;
-}
-
-#iconesMenu2{
-    display: flex;
-    margin-right: 5px;
-    margin-left: 10px;
-    width: 36px;
-    height: 36px;
-    color: #777;
-}
-
 
 .videos{
     display: grid;
@@ -159,6 +134,10 @@ body, html{
 }
 
 /* HEADER */
+header{
+    display: flex;
+    flex-direction: row;
+}
 .categoriasDeVideo{
     padding: 1rem 2rem;
     border-top: 1px solid #999;
@@ -253,3 +232,34 @@ header{
     align-items: center;
     gap: 1.5rem;
 } 
+
+/* ITENS DO MENU */
+#linhaMenuCss{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    align-items: center;
+
+}
+#iconesMenu{
+    display: flex;
+    margin-right: 5px;
+    margin-left: 10px;
+    width: 26px;
+    height: 26px;
+    color: #777;
+}
+
+#iconesMenu2{
+    display: flex;
+    margin-right: 5px;
+    margin-left: 10px;
+    width: 36px;
+    height: 36px;
+    color: #777;
+}
+
+.playlistOne{
+    display: flex;
+    flex-direction: row;
+}
