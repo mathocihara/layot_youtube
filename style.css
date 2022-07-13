@@ -114,7 +114,6 @@ body, html{
 .tituloDoVideo{
     font-size: 1rem;
     font-weight: bold;
-    margin-top: .5rem;
     text-decoration: none;
     color: rgb(24, 23, 23);
 }
